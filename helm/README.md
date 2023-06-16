@@ -14,15 +14,15 @@ This Helm chart is referenced from another Github Repo: https://github.com/xmavr
 Let us go through the Folder Structure of the Helm Chart. The charts folder contains solr, atlas, Cassandra and zookeeper Helm Charts embedded. The Atlas Chart will deploy these charts. To deploy the helm chart, clone the repo and run the below command-
 
 ```sh
-helm install --name <release name>  atlas-helm-chart
+helm install -name <release name>  atlas-helm-chart
 
-Sample Example: helm install --name atlas atlas-helm-chart
+Sample Example: helm install -name atlas atlas-helm-chart
 
 This will run the solr, atlas, Cassandra and zookeeper pods
 
 solr version : 7.7.2
 
-atlas version : 2.1.1
+atlas version : 2.2.1
 
 cassandra version : 3.11.3
 
