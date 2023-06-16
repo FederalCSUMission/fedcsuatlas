@@ -23,4 +23,7 @@ The strategy is geared\focused within IL6 enclaves but is similar to what is als
 
 
 #### Deployment Guide
----Outline deployment of Apache Atlas ---Outline deployment of Synapse and Synapse Pipeline in support of codebase ---Create trigger based on new files being dropped in ADLS ---APIM integration
+-> Deploy Atlas Helm Charts on AKS - instructions can be found in Helm folder
+-> Deploy Azure Synapse Analytics - instructions can be found in Azure Synapse Analytics folder
+-> Build Pipeline and add python code within Azure Synapse Analytics - instructuons can be found in Azure Synapse Analytics folder
+-> Trigger Pipeline and validate
