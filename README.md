@@ -19,5 +19,8 @@ The strategy is geared\focused within IL6 enclaves but is similar to what is als
 
 **Apache Atlas** - Atlas is a scalable and extensible set of core foundational governance services - enabling enterprises to effectively meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem. Apache Atlas provides open metadata management and governance capabilities for organizations to build a catalog of their data assets, classify and goven these assets and provide collaboration capabilities around these data assets for data scientists, analysts and the data governance team.
 
+![image](https://github.com/FederalCSUMission/fedcsuatlas/assets/95705084/29fce144-9143-424b-a6c5-1d06fdac6689)
+
+
 #### Deployment Guide
 ---Outline deployment of Apache Atlas ---Outline deployment of Synapse and Synapse Pipeline in support of codebase ---Create trigger based on new files being dropped in ADLS ---APIM integration
