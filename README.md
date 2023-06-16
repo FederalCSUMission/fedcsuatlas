@@ -24,6 +24,7 @@ The strategy is geared\focused within IL6 enclaves but is similar to what is als
 
 #### Deployment Guide
 -> Deploy Atlas Helm Charts on AKS - instructions can be found in Helm folder
+<https://github.com/FederalCSUMission/fedcsuatlas/blob/10883aa7bc7fa746f6b41174b3f0d2186aefa33c/helm/README.md>
 
 -> Deploy Azure Synapse Analytics - instructions can be found in Azure Synapse Analytics folder
 
