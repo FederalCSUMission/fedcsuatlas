@@ -13,8 +13,10 @@ The strategy is geared\focused within IL6 enclaves but is similar to what is als
 ---Describe Zero trust methodology behind CSU Data Hub
 
 #### CSU Data Hub Architecture
-**Azure Synapse Analytics** - at the core is the fundamental solution to support such use cases whether we are talking about ingesting, transforming, moving, storing data across the directorates and everything else can be integrated in to support as we move out. 
+**Azure Synapse Analytics** - at the core is the fundamental solution to support such use cases whether we are talking about ingesting, transforming, moving, storing data across the directorates and everything else can be integrated in to support as we move out.
+
 **Azure Data Lake Storage Gen2** - provides file system semantics, file-level security, and scale. Azure Data Lake Storage is a cloud-based, enterprise data lake solution. It is engineered to store massive amounts of data in any format, and to faciliate big data anlytical workloads.
+
 **Apache Atlas** - Atlas is a scalable and extensible set of core foundational governance services - enabling enterprises to effectively meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem. Apache Atlas provides open metadata management and governance capabilities for organizations to build a catalog of their data assets, classify and goven these assets and provide collaboration capabilities around these data assets for data scientists, analysts and the data governance team.
 
 #### Deployment Guide
