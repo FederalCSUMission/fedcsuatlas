@@ -1,4 +1,4 @@
-# CSU Data HUB deployment guide
+# Mission Data Fabric - IL6 deployment
 #### This guide has been put together in support of data fabric and data mesh deployments within Azure Secret.
 #### What is Data Fabric?
 Data Fabric means that all of your organization's data is connected through a single, unified system irreseptive of where it resides (on-premises or cloud). This system serves as an abstraction layer between users and underlying technologies with no limitations on where you can move your data. This abstraction layer can be used by your teams to access, analyze and manage your data in various formats.
