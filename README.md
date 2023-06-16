@@ -28,6 +28,6 @@ The strategy is geared\focused within IL6 enclaves but is similar to what is als
 -> Deploy Azure Synapse Analytics - instructions can be found in Azure Synapse Analytics folder
 
 -> Build Pipeline and add python code within Azure Synapse Analytics - instructuons can be found in Azure Synapse Analytics folder
-https://github.com/FederalCSUMission/fedcsuatlas/blob/4aa9d431796c9291542df336a5fec90668f18750/python/clients/README.md
+<https://github.com/FederalCSUMission/fedcsuatlas/blob/4aa9d431796c9291542df336a5fec90668f18750/python/clients/README.md>
 
 -> Trigger Pipeline and validate
