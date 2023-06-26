@@ -5,7 +5,7 @@ This is a Kubernetes Helm Chart that Deploys the Apache Atlas Cluster on Azure K
 
 # PreRequisites
 
-This Post assumes that you have an already running Kubernetes Cluster in Azure Kubernetes Service. This Chart will also work in other environment as well. Also make sure to install Helm on top of the cluster.
+This Post assumes that you have an already running Kubernetes Cluster in Azure Kubernetes Service version 1.24.9 or older. The helm charts are not compatible with newer versions of AKS. This Chart will also work in other environment as well. Also make sure to install Helm on top of the cluster.
 
 # Helm Chart Deployment
 
@@ -14,9 +14,9 @@ This Helm chart is referenced from another Github Repo: https://github.com/xmavr
 Let us go through the Folder Structure of the Helm Chart. The charts folder contains solr, atlas, Cassandra and zookeeper Helm Charts embedded. The Atlas Chart will deploy these charts. To deploy the helm chart, clone the repo and run the below command-
 
 ```sh
-helm install -name <release name>  atlas-helm-chart
+helm install -name <release name>  <path name>
 
-Sample Example: helm install -name atlas atlas-helm-chart
+Sample Example: helm install -name atlas helm
 
 This will run the solr, atlas, Cassandra and zookeeper pods
 
